@@ -1,0 +1,54 @@
+
+body {
+  background-color: lightblue;
+}
+
+
+#page {
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+  border-style: inset;
+  text-align: center;
+  background-color: white;
+}
+
+
+#contact {
+  padding: 10px 20px;
+  border: 2px outset #DCDCDC;
+  background-color: #DCDCDC;
+}
+
+p{
+  text-align: right;
+  clear:both;
+}
+
+p span{
+  float: left;
+}
+
+h1{
+  text-align: left;
+  padding: 10px 20px;
+  color: #22427C;
+}
+h2{
+  color: #7F8FA6;
+  text-align: center;
+  clear: both;
+}
+h2 span {
+  float: left;
+}
+h2 {
+  padding: 2px 10px;
+  color: #56739A;
+}
+img{
+  margin-top: -85px;
+  margin-left: 350px;
+  width: 80px;
+  height:80px;
+}
