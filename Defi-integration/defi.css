@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:100|Athiti:200|Bungee+Hairline|Chathura:100|Gruppo|Quicksand:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.navbar {
+  position: fixed;
+  border: 1px solid none;
+  box-shadow: 0px 4px 5px #D3D3D3;
+  padding: 18px;
+  left: 0px;
+  right: 0px;
+}
+.menu {
+  margin-top: -50px;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 140px;
+  font-size: 17px;
+}
+.menu span {
+  color: #64DD17;
+}
+.menu  a {
+  text-decoration: none;
+  color: #9E9E9E;
+}
+.menu li {
+  margin: 18px;
+  display: inline-flex;
+  list-style-type: none;
+}
+.menu a:hover {
+  color: #64DD17;
+}
+.logo {
+  font-weight: 100;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Athiti', sans-serif;
+  font-size: 30px;
+  border: 1px solid orange;
+  position:relative;
+  color: orange;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 100px;
+	width:100px;
+	height:100px;
+  padding: 15px;
+}
+.bouteille {
+  position: absolute;
+  margin-left: 350px;
+}
+.citrons {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 370px;
+}
+.juice {
+  font-weight: 100;
+  margin-top: 360px;
+  margin-left: 380px;
+  text-align: center;
+  font-family: 'Athiti', sans-serif;
+  font-size: 30px;
+  border: 1px solid orange;
+  position:absolute;
+  background-color: orange;
+  opacity: 0.4;
+  color: white;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 100px;
+	width:100px;
+	height:100px;
+  padding: 15px;
+}
+.titre {
+  font-size: 45px;
+  line-height: 0.5;
+  margin-left: 560px;
+  color: #64DD17;
+  margin-top: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.titre span {
+  background-color: #64DD17;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+}
+.titre1 {
+  font-family: 'Athiti', sans-serif;
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+  font-weight: 100;
+  color: #64DD17;
+  letter-spacing: 2px;
+}
+.produits {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 190px;
+  margin-right: 100px;
+  display: inline-block;
+  height: 220px;
+  width: 220px;
+  color: #9E9E9E;
+}
+
+.titre2 {
+  font-family: 'Athiti', sans-serif;
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+  font-weight: 100;
+  color: #64DD17;
+  letter-spacing: 2px;
+}
+.adresse {
+  font-size: 18px;
+  margin-left: 200px;
+  margin-right: -30px;
+  position: absolute;
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #9E9E9E;
+  line-height: 0.5;
+}
+.adresse span {
+  line-height: 0;
+}
+.formulaire {
+  position: absolute;
+  margin-left: 600px;
+  margin-right: 400px;
+  margin-top: 50px;
+  line-height: 2.7;
+}
+input {
+  width: 250px;
+  height: 22px;
+  font-size: 15px;
+  vertical-align: baseline;
+  border: 1px solid orange;
+  padding: 5px;
+}
+.mess {
+  position: absolute;
+  margin-left: 870px;
+  margin-top: 55px;
+}
+.mess input {
+  height: 108px;
+}
+.map {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 300px;
+}
+#footer{
+  margin-left: 200px;
+  line-height: 5;
+  color: #9E9E9E;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 500px;
+}
+#footer1{
+  margin-left: 200px;
+  line-height: 5;
+  color: #9E9E9E;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 650px;
+}
