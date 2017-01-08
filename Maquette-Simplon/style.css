@@ -240,6 +240,7 @@ input{
   margin-top: 50px;
   margin-left: 180px;
   margin-right: 870px;
+  padding-left: 20px;
   padding-bottom: 3px;
   padding-top: 10px;
   border-top-left-radius: 8px;
@@ -337,7 +338,6 @@ input{
   font-weight: bold;
 }
 .fb {
-  position: absolute;
   background-color: #014896;
   margin-top: 20px;
   border-top-left-radius: 10px;
@@ -349,9 +349,8 @@ input{
   border-bottom-left-radius: 10px;
 }
 .tw {
-  position: absolute;
   margin-left: 58px;
-  margin-top: 20px;
+  margin-top: -95px;
   background-color: #009fe3;
   padding: 20px;
   padding-left: 22px;
@@ -360,10 +359,9 @@ input{
   width: 20px;
 }
 .google {
-  position: absolute;
   margin-left: 120px;
   background-color: #e6007e;
-  margin-top: 20px;
+  margin-top: -95px;
   border-top-right-radius: 10px;
   padding: 20px;
   padding-left: 22px;
@@ -375,7 +373,7 @@ input{
 .fondfb {
   position: absolute;
   background-color: black;
-  margin-top: 85px;
+  margin-top: -30px;
   opacity: 0.3;
   margin-left: -0px;
   padding-top: 30px;
@@ -388,25 +386,25 @@ input{
   color: white;
   font-size: 9px;
   position: absolute;
-  margin-top: 95px;
+  margin-top: -20px;
   margin-left: 15px;
 }
 .nbtw {
   color: white;
   font-size: 9px;
   position: absolute;
-  margin-top: 95px;
+  margin-top: -20px;
   margin-left: 82px;
 }
 .nbgoogle {
   color: white;
   font-size: 9px;
   position: absolute;
-  margin-top: 95px;
+  margin-top: -20px;
   margin-left: 142px
 }
 .logo2 {
-  margin-top: 150px;
+  margin-top: 30px;
 }
 .fin {
   font-size: 11px;
