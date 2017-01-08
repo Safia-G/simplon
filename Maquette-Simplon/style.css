@@ -213,10 +213,6 @@ input{
   width: 329px;
   margin-left: 20px;
 }
-img:hover {
-  height: 265px;
-  width: 331px;
-}
 .images1 {
   display: flex;
   margin-top: 20px;
