@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Initiation Dom</title>
+  </head>
+  <style media="screen">
+    div{
+      width: 100px;
+      height: 100px;
+      background: #ff0;
+      margin:6px;
+    }
+    .bloc{
+      width: 100px;
+      height: 100px;
+      background: #ff0;
+      margin:6px;
+    }
+
+    .container{
+      width: auto;
+      height: auto;
+    }
+  </style>
+
+
+  <body>
+
+    <h1>Changer la couleur de fond des liens</h1>
+
+    <a href="#" onclick="changeCouleur('pink')">Rose</a>
+    <a href="#" onclick="changeCouleur('blue')">Bleu</a>
+    <a href="#" onclick="changeCouleur('green')">Vert</a>
+    <a href="#" onclick="changeCouleur('orange')">Orange</a>
+
+  <div id="b1" onclick="masqueBloc('b1')">Masquez moi</div>
+  <div id="b2" onclick="masqueBloc('b2')">Masquez moi</div>
+  <div id="b3" onclick="masqueBloc('b3')">Masquez moi</div>
+  <div id="b4" onclick="masqueBloc('b4')">Masquez moi</div>
+
+
+
+
+  <div id="a1" class="bloc" onclick="masqueBlocs('a1')">A Masquez moi</div>
+  <div id="a2" class="bloc" onclick="masqueBlocs('a2')">B Masquez moi</div>
+  <div id="a3" class="bloc" onclick="masqueBlocs('a3')">C Masquez moi</div>
+  <div id="a4" class="bloc" onclick="masqueBlocs('a4')">D Masquez moi</div>
+
+  <div><a href="#" onclick="afficheTousLesBlocs()">Afficher tous</a></div>
+
+
+    <script type="text/javascript" src="script.js">
+
+    </script>
+  </body>
+</html>

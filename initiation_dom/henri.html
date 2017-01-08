@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Henri</title>
+
+    <style media="screen">
+
+    </style>
+
+
+    <script type="text/javascript">
+
+      var indexQuestion = 0;
+
+      var listeQuestions = [
+        {
+          texte: "De quelle couleur est le cheval blanc d'Henri V ?",
+          reponse: "blanc"
+        },
+        {
+          texte: "Combien y a-t-il de 7 nains ?",
+          reponse: "7"
+        }
+      ];
+
+      function afficheQuestion() {
+        var questionEnCours = listeQuestions [indexQuestion];
+
+        document.getElementById('question').innerText = questionEnCours.texte;
+        document.getElementById('chpReponse').value = "";
+      }
+
+      function verifieReponse() {
+
+        var reponseUtilisateur = document.getElementById('chpReponse').value;
+        var reponseJuste = listeQuestions [indexQuestion].reponse;
+
+          if (reponseUtilisateur.toLowerCase() == reponseJuste.toLowerCase()) {
+            indexQuestion += 1;
+            if (listeQuestions.length > indexQuestion) {
+              alert('bravo');
+              afficheQuestion();
+            } else
+              alert('bravo / terminé');
+            }
+            else {
+              alert('faux');
+            }
+          }
+
+    </script>
+
+  </head>
+  <body onload="afficheQuestion()">
+    <div id="jeu">
+      <div id="question"></div>
+      <div id="reponse">
+        <input id="chpReponse" type="text"/>
+      </div>
+        <button type="button" onclick="verifieReponse()">Valider</button>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Bowlby+One+SC|Rammetto+One|Rubik+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+body {
+  background-image: url(img/fond2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  right: 0px;
+}
+.menu {
+  display: inline-block;
+  font-family: 'Indie Flower', cursive;
+  margin-left: 240px;
+  font-size: 17px;
+}
+.menu span {
+  color: #F4A460;
+}
+.menu  a {
+  text-decoration: none;
+  color: black;
+}
+.menu li {
+  margin-left: 50px;
+  display: inline-flex;
+  list-style-type: none;
+}
+.menu a:hover {
+  color: #F4A460;
+}
+
+@media all and (max-width: 1024px)
+{
+    .navbar
+    {
+        width: auto;
+        text-align: left;
+    }
+
+    body {
+      background-size: cover;
+    }
+
+    .menu {
+      margin-left: -20px;
+    }
+    .menu li
+    {
+        padding-left: 60px;
+    }
+
+    .menu a
+    {
+        font-size: 10px;
+    }
+
+    .menu a:hover
+    {
+        border-bottom: 0;
+    }
+}
+.titre {
+  position: absolute;
+  color: #696969;
+  font-size: 30px;
+  margin-top: 150px;
+  margin-left: 500px;
+  font-size: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 10px;
+  line-height: 1;
+}
+.titre span {
+  color: #F4A460;
+}
+h2 {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 300px;
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: 5px;
+  color: #808080;
+font-size: 25px;
+}
+.portf {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 550px;
+  color: #F4A460;
+  font-size: 20px;
+}
+.levre {
+  position: absolute;
+  margin-top: 800px;
+  left: 0;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
