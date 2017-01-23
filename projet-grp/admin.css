@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.grosbloc {
+  display: flex;
+}
+.hello {
+  display: flex;
+  background-color: #ff7db0;
+  height: 100vh;
+  width: 250px;
+}
+.menu {
+  float:  left;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.menu li {
+  list-style-type: none;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.menu ul a {
+ margin-left: -39px;
+ display: block;
+ align-items: center;
+ padding: 1.78em;
+ width: 100%;
+}
+.menu a:hover {
+  background:white;
+  color: #ff7db0;
+}
+.bloc {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/office.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.titre {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 1em;
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+    background-color: #ff7db0;
+    padding: 2em 1em;
+    font-size: 20px
+}
+.container {
+   display: flex;
+   align-items: center;
+   align-self: center;
+}
+.diagramme {
+    align-self: center;
+    background: white;
+    padding: 3em 4em 6em 4em;
+    margin: 2em;
+}
+.diagram-progress {
+  fill: none;
+}
+.diagram-progress {
+  stroke: #ff7db0;
+}
+.value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Trebuchet MS";
+  font-weight: 600;
+  color: black;
+}
+.present {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: black;
+}
+.absent {
+    float: right;
+    background-color: midnightblue;
+    padding: 1em 5em 10em 1em;
+    height: 10vh;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.bandeau {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  height: 15vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Archivo Black', sans-serif;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 700px) {
+.grosbloc {
+   display: table;
+}
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  height: 15vh;
+  width: 100vw;
+}
+.menu {
+  display: none;
+  font-size: 10px;
+}
+.menu li {
+  list-style-type: none;     
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+    }
+.bloc {
+  width: 100%;
+  height: 85vh;
+}
+.container {
+   display: flex;
+   align-items: center;
+   align-self: center;
+}
+.diagramme {
+    align-self: center;
+    background: white;
+    padding: 2em 2em 3em 2em;
+    margin: 1em;
+}
+.value {
+  font-size: 1.3rem;
+}
+.present {
+  align-items: center;
+  font-size: 1.2rem;
+  color: black;     
+}
+.absent {
+    padding: 1em 4em 10em 1em;
+    height: 10vh;
+}
+.bandeau {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 20vh;
+  font-size: 30px;
+}
+}
