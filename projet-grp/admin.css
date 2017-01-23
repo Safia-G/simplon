@@ -32,10 +32,10 @@ body {
   color: white;
 }
 .menu ul a {
- margin-left: -39px;
+ margin-left: -2.6em;
  display: block;
  align-items: center;
- padding: 1.78em;
+ padding: 1.78em 2em;
  width: 100%;
 }
 .menu a:hover {
