@@ -391,6 +391,11 @@ h2 {
   68%,80% {transform:translateY(-50%);}
   85%,97% {transform:translateY(-25%);}
 }
+@media screen and (max-width:800px) {
+    .barre {
+       margin-top: 100px;
+    }
+}
 .page2 {
     margin-top: 50px;
     overflow: hidden;
